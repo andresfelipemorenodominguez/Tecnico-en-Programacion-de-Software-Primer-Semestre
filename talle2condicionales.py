@@ -94,14 +94,24 @@
 #     print(f"El número {numero} no es divisible entre {divisor1} y {divisor2} al mismo tiempo.")
 
 #11
-# lista = [3, 5, 7, 9]
+# l1 = int(input("ingrese el 1er numero: "))
+# l2 = int(input("ingrese el 2do numero: "))
+# l3 = int(input("ingrese el 3er numero: "))
+# l4 = int(input("ingrese el 4to numero: "))
+# l5 = int(input("ingrese el 5to numero: "))
+# lista = [l1, l2, l3, l4, l5]
 # if 7 in lista: 
-#     print("esta en la lista")
+#     print("el numero 7 esta en la lista")
 # else:
-#     print("no esta en la lista")
+#     print("el numero 7 no esta en la lista")
 
 #12
-# lista = [1, 234, 10, 64, 45]
+# l1 = int(input("ingrese el 1er numero: "))
+# l2 = int(input("ingrese el 2do numero: "))
+# l3 = int(input("ingrese el 3er numero: "))
+# l4 = int(input("ingrese el 4to numero: "))
+# l5 = int(input("ingrese el 5to numero: "))
+# lista = [l1, l2, l3, l4, l5]
 # if lista[2] > 10:
 #     print("el tercer numero de la lista es mayor que 10")
 # elif lista[2] < 10:
@@ -110,7 +120,12 @@
 #     print("el tercer numero de la lista es igual a 10")
 
 #13
-# lista = [3, 5, 7, 9]
+# l1 = int(input("ingrese el 1er numero: "))
+# l2 = int(input("ingrese el 2do numero: "))
+# l3 = int(input("ingrese el 3er numero: "))
+# l4 = int(input("ingrese el 4to numero: "))
+# l5 = int(input("ingrese el 5to numero: "))
+# lista = [l1, l2, l3, l4, l5]
 # sum = lista[0] + lista [2]
 # if sum > 10:
 #     print("suma alta")
@@ -118,15 +133,22 @@
 #     print("suma baja")
 
 #14
-# lista = ["Ana", "Luis", "Pedro", "Juan"]
-# if lista.pop() == "Marta": #El metodo .pop() devuelve el ultimo valor de la lista
+# n1 = input("ingrese el 1er nombre: ")
+# n2 = input("ingrese el 2do nombre: ")
+# n3 = input("ingrese el 3er nombre: ")
+# n4 = input("ingrese el 4to nombre: ")
+# lista = [n1, n2, n3, n4]
+# if lista.pop() == "marta": #El metodo .pop() devuelve el ultimo valor de la lista
 #     print("Nombre correcto")
 # else:
 #     print("Nombre incorrecto")
 
 #15
-# lista = ["Rojo", "Negro", "Amarillo"]
-# if lista[1] == "Azul": #Aqui estamos actualizando un dato de una lista
+# c1 = input("ingrese el primer color: ")
+# c2 = input("ingrese el segundo color: ")
+# c3 = input("ingrese el tercer color: ")
+# lista = [c1, c2, c3]
+# if lista[1] == "azul": #Aqui estamos actualizando un dato de una lista
 #     lista[1] = "Verde"
 #     print(lista)
 # else:
