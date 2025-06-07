@@ -1,0 +1,7 @@
+El repositorio está muy bien estructurado y demuestra que vas por un excelente camino en tu proceso de aprendizaje. Has organizado adecuadamente las carpetas y archivos, lo cual es clave para mantener un proyecto limpio y comprensible.
+
+Sin embargo, al revisar el contenido, no encontré el taller de diccionarios. Estos ejercicios son fundamentales, ya que los diccionarios son una estructura de datos esencial en Python. Te recomiendo incluirlos y dedicar tiempo a practicarlos, ya que te ayudarán a comprender mejor conceptos como acceso a datos, manipulación de información y organización eficiente.
+
+Recuerda que la práctica constante con estructuras como listas, tuplas y diccionarios fortalece tu lógica y te prepara para resolver problemas más complejos en el desarrollo de software.
+
+¡Sigue así, y no dudes en complementar tu aprendizaje !
