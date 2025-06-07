@@ -19,12 +19,12 @@
 #     print("Ambos números son iguales.")
 
 #3
-# num1 = int(input("Ingresa un número: "))
+# num = int(input("Ingresa un número: "))
 
-# if num1 %2 == 0:
-#     print(f"El número {num1} par")
+# if num %2 == 0:
+#     print(f"El número {num} par")
 # else:
-#     print(f"El número {num1} impar")
+#     print(f"El número {num} impar")
 
 #4
 # num1 = int(input("Ingresa un número: "))
