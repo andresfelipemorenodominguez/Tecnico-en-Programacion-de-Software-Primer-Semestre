@@ -94,7 +94,7 @@
 #     print(f"El número {numero} no es divisible entre {divisor1} y {divisor2} al mismo tiempo.")
 
 #11
-# lista = [1, 2, 3, 4, 5]
+# lista = [3, 5, 7, 9]
 # if 7 in lista: 
 #     print("esta en la lista")
 # else:
