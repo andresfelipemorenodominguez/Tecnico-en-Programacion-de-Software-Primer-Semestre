@@ -95,7 +95,7 @@
 
 #11
 # lista = [1, 2, 3, 4, 5]
-# if 7 in lista:
+# if 7 in lista: 
 #     print("esta en la lista")
 # else:
 #     print("no esta en la lista")
@@ -109,3 +109,106 @@
 # else:
 #     print("el tercer numero de la lista es igual a 10")
 
+#13
+# lista = [3, 5, 7, 9]
+# sum = lista[0] + lista [2]
+# if sum > 10:
+#     print("suma alta")
+# else:
+#     print("suma baja")
+
+#14
+# lista = ["Ana", "Luis", "Pedro", "Juan"]
+# if lista.pop() == "Marta": #El metodo .pop() devuelve el ultimo valor de la lista
+#     print("Nombre correcto")
+# else:
+#     print("Nombre incorrecto")
+
+#15
+# lista = ["Rojo", "Negro", "Amarillo"]
+# if lista[1] == "Azul": #Aqui estamos actualizando un dato de una lista
+#     lista[1] = "Verde"
+#     print(lista)
+# else:
+#     print("el segundo color no es igual a azul")
+
+#16
+# tupla = (20, 8, 12, 30)
+# if tupla[0] < tupla[3]:
+#     mi_lista = list(tupla)
+#     mi_lista.sort()
+#     print(mi_lista)
+# else:
+#     mi_lista = list(tupla)
+#     mi_lista.sort(reverse = True) #con el metodo nombre_de_la_lista.sort(reverse = True) podemos hacer que una lista vaya en orden descendiente
+#     print(mi_lista)
+
+#17
+
+# tupla = (25, 32, 28)
+# if tupla[1] > 30:
+#     print("Edad mayor a treinta")
+# else:
+#     print("edad menor o igual a treinta")
+
+#18
+# tupla = (1, 2, 3)
+# lista = list(tupla)
+# if lista[1] == 2:
+#     lista[1] = 10
+#     mi_tupla = tuple(lista)
+#     print(mi_tupla)
+# else:
+#     print("el numero no es igual a 2")
+
+#19
+# tupla = (4, 9)
+# if tupla[1] > 5:
+#     print("coordenada alta")
+# else:
+#     print("coordenada baja")
+
+#20
+# tupla1 = (3, 4)
+# tupla2 = (3, 5)
+# if tupla1 == tupla2:
+#     print("tuplas iguales")
+# else:
+#     print("tuplas diferentes")
+
+#21
+# dic = {"nombre": "Juan", "edad": 17}
+# if dic["edad"] >= 18:
+#     print("Adulto")
+# else:
+#     print("Menor de edad")
+
+#22
+# dic = {"nombre": "Lucía", "edad": 20}
+# if dic["edad"] > 18:
+#     dic["edad"] = 21
+#     print(dic)
+# else:
+#     print("la edad no es mayor a 18")
+
+#23
+# dic = {"nombre": "Carlos"}
+# if "ciudad" not in dic:
+#     dic["ciudad"] = "bogota"
+#     print(dic)
+# else:
+#     print("la clave ciudad existe")
+
+#24
+# dic = {"producto": "pan", "precio": 1200}
+# if "precio" in dic:
+#     print(dic["precio"])
+# else:
+#     print("No hay precio")
+
+#25
+dic = {"pan": 1200, "leche": 2000}
+if "pan" in dic:
+    print(dic["pan"])
+else:
+    print("Producto no disponible")
