@@ -22,7 +22,7 @@ if dato1 == usuario:
         saldo_inicial = 1000
         while True:
             if menu == 1:
-                print(f"usted eligio ver el saldo, su saldo actual es: {saldo_inicial}.")
+                print(f"usted eligio ver el saldo, su saldo actual es: {saldo_inicial}.")#dddddd
                 menu = int(input("ahora que desea realizar, (escriba 1 = ver saldo, 2 = retirar saldo, 3 = validar saldo, 4 = salir): "))
             if menu == 2:
                 res = int(input("usted eligio retirar saldo, ahora ingrese la cantidad de saldo a retirar: "))
