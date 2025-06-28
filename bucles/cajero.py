@@ -26,16 +26,16 @@ if dato1 == usuario:
                 menu = int(input("ahora que desea realizar, (escriba 1 = ver saldo, 2 = retirar saldo, 3 = validar saldo, 4 = salir): "))
             if menu == 2:
                 res = int(input("usted eligio retirar saldo, ahora ingrese la cantidad de saldo a retirar: "))
-                saldo_restado = res - saldo_inicial
-                print(f"usted retiro: {res} y su saldo quedo: {saldo_restado}")
+                saldo_inicial -= res
+                print(f"usted retiro: {res} y su saldo quedo: {saldo_inicial}")
                 if res > saldo_inicial:
                     print("la cantidad que usted ingreso es mayor al saldo inicial")
             menu = int(input("ahora que desea realizar, (escriba 1 = ver saldo, 2 = retirar saldo, 3 = validar saldo, 4 = salir): "))
 
             if menu == 3:
                 sum = int(input("usted eligio validar saldo, ahora ingrese la cantidad que quiere ingresar: "))
-                saldo_sumado = sum + saldo_inicial
-                print(f"usted ingreso {sum}, por lo tanto su saldo que asi: {saldo_sumado}")
+                saldo_inicial += sum
+                print(f"usted ingreso {sum}, por lo tanto su saldo que asi: {saldo_inicial}")
                 menu = int(input("ahora que desea realizar, (escriba 1 = ver saldo, 2 = retirar saldo, 3 = validar saldo, 4 = salir): "))
             
             if menu == 4:
